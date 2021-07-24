@@ -1,4 +1,5 @@
-import ScanBarcode from "./ScanBarcode/scanBarcode.js";
+import ScanQrcode from "./ScanQrcode/scanQrcode.js";
+import ScanBarcode from "./ScanBarcode/ScanBarcode.js";
 import GenerateBarcode from "./GenerateBarcode/generateBarcode";
 function App() {
   return (
@@ -6,7 +7,10 @@ function App() {
       <br />
       <GenerateBarcode />
       <ScanBarcode />
-    </div>
+      <br />
+      <br />
+      {/* <ScanQrcode /> */}
+     </div>
   );
 }
 
